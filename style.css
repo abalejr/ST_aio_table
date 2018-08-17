@@ -1,0 +1,189 @@
+#aio-row-wrap {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#aio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 16px;
+}
+#aio p {
+    margin-bottom: 0;
+}
+#aio-class {
+    margin-top: 20px;
+    width: 467px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #de871d;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #de871d;
+}
+#aio-title-box {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #de871d;
+    
+}
+#aio-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+#aio-price {
+    font-size: 27px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+#aio-gmp {
+    color: #fff;
+    margin-top: 0.5em;
+}
+#aio-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+#aio-intro p {
+    text-align:center;
+    color: #de871d;
+    font-weight: 600;
+}
+.aio-feature {
+    display: flex;
+    flex: 2.8;
+    align-items: center;
+    padding: 0 16%;
+}
+.aio-feature:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+.aio-feature i {
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #de871d;
+    padding: 0.5em;
+    border-radius: 50px;
+}
+#aio-bonuses {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 573px;
+    height: 480px;
+}
+#aio-bonus-head {
+    display: flex;
+    flex: 1.25;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F85B7;
+    border: 3px solid #0F85B7;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #0F85B7;
+}
+#aio-bonus-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 26px;
+}
+#bonus-carrot {
+    width: 40px;
+    height: 40px;
+    margin-bottom: -42.425px;
+    background-color: #0F85B7;
+    transform: rotate(45deg);
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px #0F85B7;
+}
+#aio-bonus-intro {
+    color: #fff;
+}
+.aio-bonus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1.5;
+    border: 3px solid #0F85B7;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 0 110px 0 40px;
+    font-size: 14px;
+    box-shadow: 1px 1px 2px #0F85B7;
+}
+#deep-dive.aio-bonus {
+    background: url(https://s3.amazonaws.com/simpler-cdn/dev/wp-content/uploads/2018/08/09171545/deep-dive-backgrounds2.png) center right / contain no-repeat;
+}
+#psych-session.aio-bonus {
+    background: url(https://s3.amazonaws.com/simpler-cdn/dev/wp-content/uploads/2018/08/09171547/psychology-background.png) center right / contain no-repeat;
+}
+.aio-bonus::before {
+    padding: 0.4em 0.8em;
+    text-align: center;
+    position: absolute;
+    margin-left: -80px;
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    content: '\f067';
+    color: #0F85B7;
+    border: 3px solid;
+    border-radius: 50px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px #0F85B7;
+}
+.aio-bonus-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0F85B7;
+}
+.aio-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.8em;
+}
+.aio-button a {
+    font-size: 32px;
+    background-color: #de871d;
+    padding: 0.5em 3em;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.aio-button a:hover {
+    background-color: #DD9640;
+}
+@media(max-width:1136px) {
+    #aio {
+        justify-content: center;
+    }
+}
+@media(max-width:480px){
+    #aio-class {
+        height: 550px;
+    }
+    #aio-title {
+        text-align:center;
+    }
+    #aio-bonuses {
+        height: 620px;
+    }
+    .aio-bonus {
+        padding-right: 40px;
+    }
+    .aio-bonus p {
+        background-color: rgba(255,255,255,0.8);
+    }
+    #psych-session.aio-bonus {
+        flex: 1.9;
+    }
+}
